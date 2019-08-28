@@ -1,0 +1,44 @@
+<DOCTYPE html>
+  <html>
+  <head>
+ <title> form </title>
+ <link href="Rform.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+    <form action="page.php" method="POST">
+    <h1 class="sy"> Registration Form </h1>
+    <div class="q">
+  <div class="name">
+  <div><label> Name: </label><input type="text" placeholder="Name" name="Name" required></div>
+  <div><label> Email: </label> <input type="email" placeholder="Email" name="Email" required ></div>
+ <div><label> Password: </label><input type= "password" placeholder="Password" name="Password" > </div>
+ <div><label> Confirm Password: </label><input type= "password" placeholder="Password" name="Password" required></div></div>
+<div class="abc">
+  <div><label> Birth time: </label><input type= "time"  required></div>
+ <div><label> Birth day: </label><input type= "datetime-local" placeholder="mm/dd/yyyy" name="birthday" required></div>
+ <div><label> Contact Number:</label><input type= "number" placeholder="number" name="Contact number" required></div>
+ <div><label> City:</label>
+   <select name="City" required>
+   <option> </option>
+   <option> Bangalore</option>
+   <option>Hyderabad</option>
+   <option>Kurnool</option>
+   <option> Ahmedabad</option></select></div></div>
+   <div class="ac">
+ <div><label> URL</label><input type= "url"  name="url" required></div>
+ <div><label> Profile picture</label><button> choose File</button></div></div>
+ <div>
+ <div><label>Gender <input type="radio" name="gender" required>female
+   <input type="radio" name="gender" required>male</div></div>
+   <div class="s">
+   <div><label> Description </label><textarea name="text" rows="8" cols="80"></textarea></div></div>
+   <div class="y">
+    <div><input type="checkbox" >Accept <a href=www.google.com> Terms& conditions </a> of Use </div></div>
+    <div class="g">
+    <div><button> Submit </button></div></div>
+    </div>
+
+
+</form>
+</body>
+  </html>

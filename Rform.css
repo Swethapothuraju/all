@@ -1,0 +1,44 @@
+.form {
+  text-align:center;
+}
+.name div{
+  display: inline-block;
+width: 200px ;
+  padding-right: 50px;
+margin-top: 20px;
+}
+.abc div{
+  display: inline-block;
+width:200px;
+  padding-right: 50px;
+margin-top: 20px;
+}
+.ac div{
+  display: inline-block;
+width:200px;
+  padding-right: 50px;
+margin-top: 20px;
+}
+.s textarea {
+width: 100%;
+height: auto;
+}
+.g{
+  text-align: center;
+}
+form label{
+display: block;
+
+}
+.sy{
+  text-align: center;
+}
+.q{
+  text-align: left;
+  padding-right: 50px;
+  margin-left: auto;
+}
+section{
+width: 70%;
+margin: 0 auto;
+}
